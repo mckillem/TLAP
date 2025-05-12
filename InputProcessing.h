@@ -29,7 +29,7 @@ class InputProcessing {
         int evenLengthChecksum = 0;
         int position = 1;
 
-        cout << "Enter a six-digit number: ";
+        cout << "Enter a number: ";
         digit = cin.get();
 
         while (digit != 10) {
