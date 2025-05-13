@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(think_like main.cpp
         InputProcessing.cpp
-        InputProcessing.h)
+        InputProcessing.h
+        TrackingState.cpp
+        TrackingState.h)

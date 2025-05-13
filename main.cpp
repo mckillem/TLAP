@@ -1,5 +1,6 @@
 
 #include "InputProcessing.h"
+#include "TrackingState.h"
 
 int main() {
     /**
@@ -22,6 +23,8 @@ int main() {
     // }
 
 
-   InputProcessing::printOut();
+   // InputProcessing::printOut();
+
+    TrackingState::trackingState();
 }
 
