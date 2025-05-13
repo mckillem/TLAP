@@ -8,7 +8,7 @@
 
 using std::cin;
 using std::cout;
-
+/*Luhn checksum validation*/
 class InputProcessing {
     static int doubleDigitValue(int digit) {
         int doubledDigit = digit * 2;
